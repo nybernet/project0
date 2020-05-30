@@ -1,11 +1,19 @@
-body {
-}
+h1, p {
+  font-family: san-serif;
+  color: green; }
 
-.table th, td{
+h1 {
   text-align: center;
-}
+  border: 2px solid green; }
 
+.center {
+  text-align: center; }
 
-h1, h3 {
-  text-align: center;
-}
+#description {
+  color: green;
+  font-size: 20px; }
+
+div ol {
+  color: green; }
+
+/*# sourceMappingURL=style.css.map */

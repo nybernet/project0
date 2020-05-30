@@ -1,0 +1,31 @@
+$color: green;
+
+%base{
+  font-family: san-serif;
+  color: $color;
+}
+
+h1 {
+  @extend %base;
+  text-align: center;
+  border: 2px solid green;
+}
+
+p {
+  @extend %base;
+}
+
+.center {
+  text-align: center;
+}
+
+#description {
+  color: $color;
+  font-size: 20px;
+}
+
+div {
+  ol{
+    color: $color
+  }
+}
