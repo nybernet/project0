@@ -24,6 +24,12 @@ p {
   font-size: 20px;
 }
 
+@media screen and (max-width: 800px){
+  h1{
+    display: none;
+  }
+}
+
 div {
   ol{
     color: $color
